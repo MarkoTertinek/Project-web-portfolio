@@ -1,0 +1,23 @@
+{
+  "name": "project-web-portfolio",
+  "version": "1.0.0",
+  "description": "project with html and css",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkoTertinek/Project-web-portfolio.git"
+  },
+  "keywords": [],
+  "author": "marko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarkoTertinek/Project-web-portfolio/issues"
+  },
+  "homepage": "https://github.com/MarkoTertinek/Project-web-portfolio#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
