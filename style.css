@@ -1,10 +1,20 @@
 /* @import url("./bootstrap/dist/css/bootstrap.min.css"); */
 
-/* @import url("./bootstrap/dist/js/bootstrap.bundle.min.js");
+/* @import url("./bootstrap/dist/js/bootstrap.bundle.js");
  */
-body {
+*,
+*:before,
+*:after {
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    background-color: silver;
+
 }
+
+ nav {
+    background-color: rgb(245, 91, 168);
+ }
+
+ body {
+    background-color: lightpink;
+ }
