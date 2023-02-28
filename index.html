@@ -6,39 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/04b7815f1a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
-<body class="lightpink">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top p-2">
-        <div class="container-fluid">
-          <a class="navbar-brand text-white" href="#">Icon</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-            <ul class="navbar-nav">
-              <a class="nav-link text-white" aria-current="page" href="#">Home</a>
-              <a class="nav-link text-white" href="#">My Bio</a>
-              <a class="nav-link text-white" href="#">My Resume</a>
-              <a class="nav-link text-white" href="#">My Hobbies</a>
-            </ul>
-          </div>
-        </div>
-      </nav>
-        <div class="container my-5" id="hero">
-          <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-8">
-              <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores tempora earum impedit, saepe quam voluptates possimus quasi dicta sequi veniam quos, ad accusamus laudantium ea.</h1>
-              <p>I am a paragraph</p>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-4 pb-3">
-              <img class="border border-3 border-white rounded-circle my-4" src="./images/FB_IMG_1670747699355.jpg" alt="pic-of-me" width="450">
+<body class="d-flex justify-content-center align-items-center">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top p-2 border-bottom border-2">
+          <div class="container-fluid">
+            <a class="navbar-brand fst-italic fw-bold fs-3" href="#">LALA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+              <ul class="navbar-nav gap-2">
+                <a class="nav-link text-white" aria-current="page" href="#">Home</a>
+                <a class="nav-link text-white" href="#">Resume</a>
+                <a class="nav-link text-white" href="#">Hobbies</a>
+                <a class="nav-link text-white" href="#">Contact</a>
+              </ul>
             </div>
           </div>
+        </nav>
+    </header>
+    <main class="pt-5 mt-5">
+      <div class="container" id="hero">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-4 pb-3 pb-lg-5 d-flex justify-content-center">
+            <img class="border border-3 border-white rounded-circle mt-5 p-3" src="./images/FB_IMG_1670747699355.jpg" alt="pic-of-me" width="400">
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-8 ps-5 mb-5 border-end border-2">
+            <h1 class="display-1 text-white"><span class="hello">Hello,</span> I am Marko Tertinek</h1>
+            <p class="lead text-white fs-4 pe-5">I am a professor of Sociology and History, who is curenttly testing his boundaries by learning <span class="hello">WEB</span> Development.</p>
+            <div class="icons d-flex gap-3 fs-1 pb-3">
+              <a href="https://github.com/MarkoTertinek" target="_blank"><i class="fa-brands fa-github"></i></a>
+              <a href="https://de-de.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.linkedin.com/hp?src=go-pa&trk=sem-ga_campid.17342682713_asid.137892267275_crid.600353195418_kw.linkedin_d.c_tid.kwd-148086543_n.g_mt.e_geo.1004927&mcid=6935667189886640128&cid=&gclid=Cj0KCQiA6fafBhC1ARIsAIJjL8kF9gMBo7GcNfA-5Jos0TX3UJ1wQhMLcj1yENH0YOOxK2lIjmSbcpsaAhSJEALw_wcB&gclsrc=aw.ds" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
         </div>
-      <footer class="fixed-bottom bg-dark p-2 text-white text-center">
-        <p>@Copyright Marko Tertinek</p>
+      </div>
+     </main> 
+      <footer class="fixed-bottom bg-dark text-white p-2 text-center border-top border-2">
+        <p>@Copyright Marko Tertinek 2023</p>
       </footer>
 <!--     <script src="./bootstrap/dist/js/bootstrap.bundle.js"></script>
  --></body>

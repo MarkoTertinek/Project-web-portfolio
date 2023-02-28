@@ -5,16 +5,56 @@
 *,
 *:before,
 *:after {
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
- nav {
-    background-color: rgb(245, 91, 168);
- }
+:root {
+  font-family: 'Roboto', sans-serif;
+}
 
- body {
-    background-color: lightpink;
- }
+nav {
+  background-color: purple;
+}
+
+.navbar-brand {
+  color: purple;
+  animation: logo 7s linear infinite;;
+}
+
+body {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+}
+
+
+.hello {
+  color: blueviolet;
+  font-weight: bold;
+  text-shadow: 1px 1px 0px white;
+}
+
+.fa-brands {
+  transition: 0.5s cubic-bezier(0, 0.4, 0.4, 0.49);;
+}
+
+
+.fa-brands:hover {
+  color:blueviolet;
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+@keyframes logo {
+  0% {
+  
+    color: purple;
+  }
+
+  100% {
+    color: white;
+  
+  }
+}
