@@ -10,9 +10,9 @@
   box-sizing: border-box;
 }
 
-:root {
-  font-family: 'Roboto', sans-serif;
-
+body {
+  background-color: #16161a;
+  font-family: 'Roboto Mono', monospace !important;
 }
 
 nav {
@@ -24,15 +24,17 @@ nav {
   animation: logo 7s linear infinite;;
 }
 
-body {
-  background-color: black;
-  width: 100%;
-  height: 100vh;
+
+
+#hero {
+-webkit-box-shadow: inset 7px 11px 137px -39px rgba(232,23,232,1);
+-moz-box-shadow: inset 7px 11px 137px -39px rgba(232,23,232,1);
+box-shadow: inset 7px 11px 137px -39px rgba(232,23,232,1);
 }
 
 
 .hello {
-  color: blueviolet;
+  color: #7f5af0;
   font-weight: bold;
   text-shadow: 1px 1px 0px white;
 }
@@ -43,7 +45,7 @@ body {
 
 
 .fa-brands:hover {
-  color:blueviolet;
+  color: blueviolet;
   cursor: pointer;
   transform: scale(1.2);
 }
