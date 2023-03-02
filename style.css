@@ -5,12 +5,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 body {
   background-color: #030200;
   font-family: 'Roboto Mono', monospace !important;
 }
+/* Header */
 
 nav {
   background-color: #030200;
@@ -26,16 +28,12 @@ nav {
   color: purple;
   animation: logo 6s linear infinite;;
 }
-
+/* Hero */
 
 #hero {
 -webkit-box-shadow: inset 7px 11px 137px -39px rgba(232,23,232,1);
 -moz-box-shadow: inset 7px 11px 137px -39px rgba(232,23,232,1);
 box-shadow: inset 7px 11px 137px -39px rgba(232,23,232,1);
-}
-.aboutme {
- background-color: #111111;
-               
 }
 
 .hello {
@@ -58,18 +56,34 @@ box-shadow: inset 7px 11px 137px -39px rgba(232,23,232,1);
 @keyframes logo {
   0% {
   
-    color: purple;
+    color: white;
   }
 
   100% {
-    color: white;
+    color: purple;
   
   }
 }
 
+/* about */
+
+.aboutme {
+ background-color: #111111;
+               
+}
+
+/* Hobbies */
+
 #hobbies {
   color: #94a1b2;
 }
+
+#work {
+  color:#94a1b2;
+}
+
+
+
 
 
 
