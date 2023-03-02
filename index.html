@@ -15,22 +15,21 @@
 </head>
 <body>
     <header>
-      <nav class="navbar navbar-expand-lg fixed-top p-2 border-bottom border-2">
+      <nav class="navbar navbar-expand-lg fixed-top p-2 px-lg-4 border-bottom border-2">
           <div class="container-fluid">
-            <a class="navbar-brand fst-italic fw-bold fs-2" href="#">M87</a>
+            <a class="navbar-brand fst-italic fw-bold fs-3" href="#">M87</a>
             <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
           </div>
-            <div class="collapse navbar-collapse fs-4 justify-content-end" id="navbarNavAltMarkup">
+            <div class="collapse navbar-collapse fs-5 justify-content-end fw-bold text-white" id="navbarNavAltMarkup">
               <ul class="navbar-nav gap-2">
-                <a class="nav-link text-white" aria-current="page" href="#">Home</a>
-                <a class="nav-link text-white" href="#">About</a>
-                <a class="nav-link text-white" href="#hobbies">Hobbies</a>
-                <a class="nav-link text-white" href="#contact">Contact</a>
+                <li><a class="nav-link text-white" aria-current="page" href="#">Home</a></li>
+                <li><a class="nav-link text-white" href="#about">About</a></li>
+                <li><a class="nav-link text-white" href="#hobbies">Hobbies</a></li>
+                <li><a class="nav-link text-white" href="#contact">Contact</a></li>
               </ul>
             </div>
-          </div>
         </nav>
     </header>
     <main class="mt-xxl-5 pt-xxl-5">
@@ -51,33 +50,80 @@
               </div>
             </div>
           </div>
+          </div>
         </section>
+
         <hr>
 
       <!-- About me -->
-      <section class="container mt-5 pt-xl-5 text-white">
+
+      <section class="container mt-5 pt-xl-5 text-white fs-5" id="about">
         <h2 class="display-5 text-center">About me</h2>
-        <div class="row">
-          <div class="col-12">
-            <h3></h3>
-            <p></p>
-          </div>
+        <div class="aboutme  p-4">
+          <p>I came from Slovenia to Germany in search of new challenges, and to find a job that would allowe me to evolve, both professionaly and personaly.</p>
+           <p>With my masters degree I managed to get the title "Professor of Sociology and History" at the <a href="https://ff.um.si/" target="_blank">Faculty of Arts in Maribor (Slovenia)</a>. My work experiences include teaching and working as a nursing assistant. Curenttly I am learning Web Development at <a href="https://start.digitalcareerinstitute.org/de/discover-dci-c089b/?cro_test_id=upMbMFcKR2y8Ejq7GwcswQ_2&utm_feeditemid=&utm_device=c&utm_campaign_id=13121939688&utm_adgroup_id=147025773778&utm_ad_id=647591448650&utm_term=dci%20digital&utm_source=google&utm_medium=ppc&utm_campaign=DE_SEM_Brand_Norden&utm_content=147025773778&hsa_cam=13121939688&hsa_mt=p&hsa_src=g&hsa_acc=9628643656&hsa_net=adwords&hsa_kw=dci%20digital&hsa_tgt=kwd-301076904938&hsa_ver=3&hsa_grp=147025773778&hsa_ad=647591448650&gclid=CjwKCAiAr4GgBhBFEiwAgwORre73eI80wuWvffrRcekjjEoagWJa5lKOBx0fgrcM8fVLyjPVxVN5eRoCoswQAvD_BwE" target="_blank">DCI (Digital Career Institute)</a> in hope of becoming a member of the TECH family in the future.</p>
+          <p>I have good organising skills, I am creativ and can adapt to different working conditions. My personality traits are: kindness, open-mindedness, loyality, emphaty, honesty,trustworthiness.</p>
+          <p>I spend my free time hiking, climbing, cooking vegan dishes for my friends, and in the evenings I like to chill with some deep meditation and streetching yoga positions.</p>
         </div>
 
+
+        <div class="row my-5">
+          <div class="col-12 col-xl-6 d-flex align-items-center order-1 order-xl-0">
+              <div class="text-left">
+                  <h3 class="mt-5 text-white">Teaching</h3>
+                  <p class="fs-5">
+                  </p>
+              </div>
+          </div>
+          <div class="col-12 col-xl-6 order-0 order-xl-1">
+              <img src="./images/teacher3.avif" class="img-fluid rounded-5 img-thumbnail" width="100%" alt="">
+          </div>
+      </div>
+
+      <hr class="text-white">
+
+      <div class="row my-5">
+          <div class="col-12 col-xl-6">
+              <img src="./images/pfleger.avif" class="img-fluid img-thumbnail rounded-5" width="100%" alt="">
+          </div>
+          <div class="col-12 col-xl-6 d-flex align-items-center">
+              <div class="text-left">
+                  <h3 class="mt-5 text-white">Nursing Assistant</h3>
+                  <p class="fs-5">
+                  </p>
+              </div>
+          </div>
+      </div>
+
+      <hr class="text-white">
+
+      <div class="row my-5">
+          <div class="col-12 col-xl-6 d-flex align-items-center order-1 order-xl-0">
+              <div class="text-left">
+                  <h3 class="mt-5 text-white">Web Development</h3>
+                  <p class="fs-5">
+                  </p>
+              </div>
+          </div>
+          <div class="col-12 col-xl-6 order-0 order-xl-1">
+              <img src="./images/code.2.avif" class="img-fluid rounded-5 img-thumbnail" width="100%" alt="">
+          </div>
+      </div>
+    
       </section>
 
 
       <!-- Hobbies -->
 
-      <section class="container pt-5 mt-5 text-left text-secondary" id="hobbies">
-        <h2 class="display-5 pt-xl-5 mt-xl-5 text-center">My Hobbies</h2>
+      <section class="container pt-5 mt-5 text-left" id="hobbies">
+        <h2 class="display-5 pt-xl-5 mt-xl-5 text-center text-white">My Hobbies</h2>
         <div class="row my-5">
           <div class="col-12 col-xl-6">
-              <img src="./images/hiking8.avif" class="img-fluid img-thumbnail" width="100%" alt="">
+              <img src="./images/hiking8.avif" class="img-fluid rounded-5 img-thumbnail" width="100%" alt="">
           </div>
           <div class="col-12 col-xl-6 d-flex align-items-center">
               <div class="text-left">
-                  <h3 class="mt-5 text-white">Hiking and Climbing</h1>
+                  <h3 class="mt-5 text-white">Hiking and Climbing</h3>
                   <p class="fs-5">Because I was born in a country, that has a landscape full of mountains, I am naturall atracted to them. When I was a little kid I use to climb every trea in the neighbourgood, but now I am compansating this with hiking. My favourite places to hike are my home country of Slovenia, Austria and Italy.
                   </p>
               </div>
@@ -89,13 +135,13 @@
            <div class="row my-5">
               <div class="col-12 col-xl-6 d-flex align-items-center order-1 order-xl-0">
                   <div class="text-left">
-                      <h3 class="mt-5 text-white">Meditation and Yoga</h1>
+                      <h3 class="mt-5 text-white">Meditation and Yoga</h3>
                       <p class="fs-5">One of the things that gives me peace of my mind in hard times, is definetly spirituality. I really love buddhism and everything that is connected to Buddhism. A lot of my free tim is spend on finding always new ways to meditate. To complete spiritual part I do also Yoga. I am still a beginner, but we are getting there
                       </p>
                   </div>
               </div>
               <div class="col-12 col-xl-6 order-0 order-xl-1">
-                  <img src="./images/maditation1.avif" class="img-fluid img-thumbnail" width="100%" alt="">
+                  <img src="./images/maditation1.avif" class="img-fluid rounded-5 img-thumbnail" width="100%" alt="">
               </div>
           </div>
 
@@ -103,11 +149,11 @@
 
           <div class="row my-5">
               <div class="col-12 col-xl-6">
-                  <img src="./images/poetry2.avif" class="img-fluid img-thumbnail" width="100%" alt="">
+                  <img src="./images/poetry2.avif" class="img-fluid img-thumbnail rounded-5" width="100%" alt="">
               </div>
               <div class="col-12 col-xl-6 d-flex align-items-center">
                   <div class="text-left">
-                      <h3 class="mt-5 text-white">Writing Poetry</h1>
+                      <h3 class="mt-5 text-white">Writing Poetry</h3>
                       <p class="fs-5">When I was younger, I use to write a lot of poems. It was always rewarding and it allowed me to express my emotions in difficult times. The fun part about it is that everyone can be a poet. My favourite types of poems are Verses. Haiku and Sonnets. My best sources of inspiration are people, who I care about, the forest, the seaside, and thinking about the past and the future. I also use to own a poetry journal. Sadley it got lost over the years. This is a hobby, that I am planing to bring back to life very soon.
                       </p>
                   </div>
@@ -119,13 +165,13 @@
           <div class="row my-5">
               <div class="col-12 col-xl-6 d-flex align-items-center order-1 order-xl-0">
                   <div class="text-left">
-                      <h3 class="mt-5 text-white">Vegan Cooking</h1>
+                      <h3 class="mt-5 text-white">Vegan Cooking</h3>
                       <p class="fs-5">When I first became Vegan, I was suddenly put in a situation, where I had to start cooking. Something that I used to hate, became one of my favourite hobbies. Learning to cook has also saved me a lot of money and time. The meals made at home, are meals made with love, beside that, they also taste fresher than for example frozen microwave foods. I also enjoy to have control over, what I put into my body. Over time, as my cooking skills deeloped, I also started to experiment with different recipes and turning non-vegan dishes into vegan. 
                       </p>
                   </div>
               </div>
               <div class="col-12 col-xl-6 order-0 order-xl-1">
-                  <img src="./images/cooking2.avif" class="img-fluid img-thumbnail" width="100%" alt="">
+                  <img src="./images/cooking2.avif" class="img-fluid rounded-5 img-thumbnail" width="100%" alt="">
               </div>
           </div>
         </section>
@@ -133,29 +179,29 @@
       <!-- Contact   -->
 
       <div class="container border rounded-4 border-2 bg-dark px-" id="contact">
-        <h2 class="display-5 fw-bold text-center text-white mb-4 pt-5">Contact me</h2>
+        <h2 class="display-6 fw-bold text-center text-white py-5">Contact me</h2>
         <div class="row">
           <form
             action="#"
             class="col-sm-12 offset-md-3 col-md-6 offset-lg-4 col-lg-4"
           >
             <div class="form-group text-white fw-bold">
-              <label for="exampleFormControlInput1">Full Name:</label>
+              <label for="fullname">Full Name:</label>
               <input
                 type="email"
                 class="form-control"
-                id="exampleFormControlInput1"
+                id="fullname"
               />
             </div>
 
             <br>
 
             <div class="form-group text-white fw-bold">
-              <label for="exampleFormControlInput1">Your Email:</label>
+              <label for="email">Your Email:</label>
               <input
                 type="email"
                 class="form-control"
-                id="exampleFormControlInput1"
+                id="email"
                 placeholder="name@example.com"
               />
             </div>
@@ -163,10 +209,10 @@
             <br>
 
             <div class="form-group text-white fw-bold">
-              <label for="exampleFormControlTextarea1">Your Message for me:</label>
+              <label for="yourmessage">Your Message for me:</label>
               <textarea
                 class="form-control"
-                id="exampleFormControlTextarea1"
+                id="yourmessage"
                 rows="3"
               ></textarea>
             </div>
@@ -177,6 +223,10 @@
           </form>
         </div>
       </div>
-     </main> 
+     </main>
+     <footer class="container-fluid text-center text-white pt-3">
+      <p>@Copyright Marko Tertinek 2023</p>
+     </footer> 
     </body>
 </html>
+
