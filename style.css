@@ -12,6 +12,7 @@ body {
   background-color: #030200;
   font-family: 'Roboto Mono', monospace !important;
 }
+
 /* Header */
 
 nav {
@@ -26,7 +27,8 @@ nav {
 
 .navbar-brand {
   color: purple;
-  animation: logo 6s linear infinite;;
+  animation: logo 6s linear infinite;
+  font-family: 'Pacifico', cursive;
 }
 /* Hero */
 
@@ -65,10 +67,25 @@ box-shadow: inset 7px 11px 137px -39px rgba(232,23,232,1);
   }
 }
 
+.project {
+  font-family: 'Pacifico', cursive;
+  word-spacing: 0.2rem;
+}
+
+.project:hover {
+  background-color: purple;
+}
+
+.project:active {
+  opacity: 0.5;
+}
+
 /* about */
 
 .aboutme {
- background-color: #111111;
+  border-image: linear-gradient(91.1deg, rgb(57, 31, 105) -2.3%, rgb(115, 43, 155) 44.4%, rgb(231, 75, 184) 103.4%) 30;
+  border-width: 0.5rem;
+  border-style: solid;
                
 }
 
@@ -80,6 +97,33 @@ box-shadow: inset 7px 11px 137px -39px rgba(232,23,232,1);
 
 #work {
   color:#94a1b2;
+}
+
+.img-fluid {
+  border-image: linear-gradient(91.1deg, rgb(57, 31, 105) -2.3%, rgb(115, 43, 155) 44.4%, rgb(231, 75, 184) 103.4%) 30;
+  border-width: 0.5rem;
+  border-style: solid;
+  object-fit: cover;
+}
+
+
+#contact {
+  border-image: linear-gradient(91.1deg, rgb(57, 31, 105) -2.3%, rgb(115, 43, 155) 44.4%, rgb(231, 75, 184) 103.4%) 30;
+  border-width: 0.5rem;
+  border-style: solid;
+}
+
+.submit {
+  background-color: #030200;
+  border: 2px solid white;
+  font-family: 'Pacifico', cursive;
+  letter-spacing: 0.2rem;
+  border-radius: 7px;
+}
+
+.submit:hover {
+  opacity: 0.5;
+
 }
 
 
