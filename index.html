@@ -1,156 +1,331 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css">
-    <script src="https://kit.fontawesome.com/04b7815f1a.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="shortcut icon" href="./images/icons8-m-48.png" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css" />
+    <script
+      src="https://kit.fontawesome.com/04b7815f1a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="shortcut icon"
+      href="./images/icons8-m-48.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
     <title>Document</title>
-</head>
-<body>
-
-  <!-- Header -->
+  </head>
+  <body>
+    <!-- Header -->
 
     <header>
-      <nav class="navbar navbar-expand-lg fixed-top p-2 px-lg-4 border-bottom border-2">
-          <div class="container-fluid">
-            <a class="navbar-brand fst-italic fw-bold fs-1" href="#">MT</a>
-            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          </div>
-            <div class="collapse navbar-collapse fs-5 justify-content-end fw-bold text-white" id="navbarNavAltMarkup">
-              <ul class="navbar-nav gap-2">
-                <li><a class="nav-link rounded-2 text-white" aria-current="page" href="#">Home</a></li>
-                <li><a class="nav-link rounded-2 text-white" href="#about">About</a></li>
-                <li><a class="nav-link text-white rounded-2" href="#hobbies">Hobbies</a></li>
-                <li><a class="nav-link text-white rounded-2" href="#contact">Contact</a></li>
-              </ul>
-            </div>
-        </nav>
+      <nav
+        class="navbar navbar-expand-lg fixed-top p-2 px-lg-4 border-bottom border-2"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand fst-italic fw-bold fs-1" href="#">MT</a>
+          <button
+            class="navbar-toggler bg-white"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div
+          class="collapse navbar-collapse fs-5 justify-content-end fw-bold text-white"
+          id="navbarNavAltMarkup"
+        >
+          <ul class="navbar-nav gap-2">
+            <li>
+              <a
+                class="nav-link rounded-2 text-white"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a class="nav-link rounded-2 text-white" href="#about">About</a>
+            </li>
+            <li>
+              <a class="nav-link text-white rounded-2" href="#hobbies"
+                >Hobbies</a
+              >
+            </li>
+            <li>
+              <a class="nav-link text-white rounded-2" href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <!-- Main -->
 
     <main class="mt-xxl-5 pt-xxl-5">
       <section class="py-xxl-5">
-
         <!-- Hero -->
-        <div class="container my-xxl-5 pt-5 py-xxl-5 position-relative" id="hero">
+        <div
+          class="container my-xxl-5 pt-5 py-xxl-5 position-relative"
+          id="hero"
+        >
           <div class="row">
-            <div class="col-md-12 col-xxl-5 pb-3 pb-lg-5 d-flex justify-content-center">
-              <img class=" img-fluid border border-3 border-white rounded-circle mt-5 p-3" src="./images/FB_IMG_1670747699355.jpg" alt="pic-of-me" width="400">
+            <div
+              class="col-md-12 col-xxl-5 pb-3 pb-lg-5 d-flex justify-content-center"
+            >
+              <img
+                class="img-fluid border border-3 border-white rounded-circle mt-5 p-3"
+                src="./images/FB_IMG_1670747699355.jpg"
+                alt="pic-of-me"
+                width="400"
+              />
             </div>
-            <div class="col-md-12 col-xxl-7 ps-5 mb-5 " >
-              <h1 class="display-1 text-white pb-2"><span class="hello">Hello,</span> I am Marko Tertinek</h1>
-              <p class="lead text-white fs-4 pe-5">I am a professor for Sociology and History, who is curenttly testing his boundaries by learning <span class="hello">WEB</span> Development.</p>
+            <div class="col-md-12 col-xxl-7 ps-5 mb-5">
+              <h1 class="display-1 text-white pb-2">
+                <span class="hello">Hello,</span> I am Marko Tertinek
+              </h1>
+              <p class="lead text-white fs-4 pe-5">
+                I am a professor for Sociology and History, who is curenttly
+                testing his boundaries by learning
+                <span class="hello">WEB</span> Development.
+              </p>
               <div class="icons d-flex gap-3 fs-1 pb-3">
-                <a href="https://github.com/MarkoTertinek" target="_blank"><i class="fa-brands fa-github"></i></a>
-                <a href="https://de-de.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://www.linkedin.com/hp?src=go-pa&trk=sem-ga_campid.17342682713_asid.137892267275_crid.600353195418_kw.linkedin_d.c_tid.kwd-148086543_n.g_mt.e_geo.1004927&mcid=6935667189886640128&cid=&gclid=Cj0KCQiA6fafBhC1ARIsAIJjL8kF9gMBo7GcNfA-5Jos0TX3UJ1wQhMLcj1yENH0YOOxK2lIjmSbcpsaAhSJEALw_wcB&gclsrc=aw.ds" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands me-5 fa-instagram"></i></a>
-                <a href="https://github.com/MarkoTertinek/Project-web-portfolio/projects?query=is%3Aopen" target="_blank"><button type="button" class="project btn text-white btn-sm border border-2 px-3 py-2 ms-md-5 rounded-2 fs-4">See My Projects</button></a>
+                <a href="https://github.com/MarkoTertinek" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://de-de.facebook.com/" target="_blank">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/hp?src=go-pa&trk=sem-ga_campid.17342682713_asid.137892267275_crid.600353195418_kw.linkedin_d.c_tid.kwd-148086543_n.g_mt.e_geo.1004927&mcid=6935667189886640128&cid=&gclid=Cj0KCQiA6fafBhC1ARIsAIJjL8kF9gMBo7GcNfA-5Jos0TX3UJ1wQhMLcj1yENH0YOOxK2lIjmSbcpsaAhSJEALw_wcB&gclsrc=aw.ds"
+                  target="_blank"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+                <a href="https://www.instagram.com/" target="_blank"
+                  ><i class="fa-brands me-5 fa-instagram"></i
+                ></a>
+                <a
+                  href="https://github.com/MarkoTertinek/Project-web-portfolio/projects?query=is%3Aopen"
+                  target="_blank"
+                >
+                  <button
+                    type="button"
+                    class="project btn text-white btn-sm border border-2 px-3 py-2 ms-md-5 rounded-2 fs-4"
+                  >
+                    See My Projects
+                  </button>
+                </a>
               </div>
             </div>
           </div>
-      </div>
-        </section>
+        </div>
+      </section>
 
       <!-- About me -->
 
       <section class="container mt-5 pt-xl-5 text-white fs-5" id="about">
         <h2 class="display-5 fw-bold mb-5 p-5 text-center">About me</h2>
         <div class="aboutme p-5">
-          <p>I came to Germany in search of new challenges, and to find a job that would allow me to evolve, both professionaly and personaly.</p>
-           <p>With my masters degree I managed to get the title "Professor of Sociology and History" at the <a href="https://ff.um.si/" target="_blank">Faculty of Arts in Maribor (Slovenia)</a>. My work experiences include teaching and working as a nursing assistant. Curenttly I am learning Web Development at <a href="https://start.digitalcareerinstitute.org/de/discover-dci-c089b/?cro_test_id=upMbMFcKR2y8Ejq7GwcswQ_2&utm_feeditemid=&utm_device=c&utm_campaign_id=13121939688&utm_adgroup_id=147025773778&utm_ad_id=647591448650&utm_term=dci%20digital&utm_source=google&utm_medium=ppc&utm_campaign=DE_SEM_Brand_Norden&utm_content=147025773778&hsa_cam=13121939688&hsa_mt=p&hsa_src=g&hsa_acc=9628643656&hsa_net=adwords&hsa_kw=dci%20digital&hsa_tgt=kwd-301076904938&hsa_ver=3&hsa_grp=147025773778&hsa_ad=647591448650&gclid=CjwKCAiAr4GgBhBFEiwAgwORre73eI80wuWvffrRcekjjEoagWJa5lKOBx0fgrcM8fVLyjPVxVN5eRoCoswQAvD_BwE" target="_blank">DCI (Digital Career Institute)</a> in hope of becoming a member of the TECH family in the future.</p>
-          <p>I have good organising skills, I am creativ and can adapt to different working conditions. My strong traits are open-mindedness, loyality and emphaty.</p>
-          <p>I spend my free time hiking, climbing, cooking, and in the evenings I like to chill with some music, meditation and yoga.</p>
-          <p>I speak Slovenian, English, German and a bit of Serbian, Croatian and Italian.</p>
+          <p>
+            I came to Germany in search of new challenges, and to find a job
+            that would allow me to evolve, both professionaly and personaly.
+          </p>
+          <p>
+            With my masters degree I managed to get the title "Professor of
+            Sociology and History" at the
+            <a href="https://ff.um.si/" target="_blank"
+              >Faculty of Arts in Maribor (Slovenia)</a
+            >. My work experiences include teaching and working as a nursing
+            assistant. Curenttly I am learning Web Development at
+            <a
+              href="https://start.digitalcareerinstitute.org/de/discover-dci-c089b/?cro_test_id=upMbMFcKR2y8Ejq7GwcswQ_2&utm_feeditemid=&utm_device=c&utm_campaign_id=13121939688&utm_adgroup_id=147025773778&utm_ad_id=647591448650&utm_term=dci%20digital&utm_source=google&utm_medium=ppc&utm_campaign=DE_SEM_Brand_Norden&utm_content=147025773778&hsa_cam=13121939688&hsa_mt=p&hsa_src=g&hsa_acc=9628643656&hsa_net=adwords&hsa_kw=dci%20digital&hsa_tgt=kwd-301076904938&hsa_ver=3&hsa_grp=147025773778&hsa_ad=647591448650&gclid=CjwKCAiAr4GgBhBFEiwAgwORre73eI80wuWvffrRcekjjEoagWJa5lKOBx0fgrcM8fVLyjPVxVN5eRoCoswQAvD_BwE"
+              target="_blank"
+              >DCI (Digital Career Institute)</a
+            >
+            in hope of becoming a member of the TECH family in the future.
+          </p>
+          <p>
+            I have good organising skills, I am creativ and can adapt to
+            different working conditions. My strong traits are open-mindedness,
+            loyality and emphaty.
+          </p>
+          <p>
+            I spend my free time hiking, climbing, cooking, and in the evenings
+            I like to chill with some music, meditation and yoga.
+          </p>
+          <p>
+            I speak Slovenian, English, German and a bit of Serbian, Croatian
+            and Italian.
+          </p>
         </div>
       </section>
 
       <!-- My work experience -->
 
       <section class="container mt-5 pt-5" id="work">
-         <h3 class="display-5 text-center text-white">My work experience:</h3>
+        <h3 class="display-5 text-center text-white">My work experience:</h3>
 
         <article class="row my-5 pt-5">
-          <div class="col-12 col-xl-6 d-flex align-items-center order-1 order-xl-0">
-              <div class="text-left">
-                  <h3 class="mt-5 text-white">Teaching:</h3>
-                  <ul class="fs-5">
-                    <li>Educating children, teenagers and adults;</li>
-                    <li>Specialized in religious studies, history and ethics;</li>
-                    <li>Working with students with learning disabilities;</li>
-                    <li>Encouraging student participation;</li>
-                    <li>Planning the school year curriculum;</li>
-                    <li>Marking student work and recording performance;</li>
-                    <li>Attending teacher meetings and conferences;</li>
-                    <li>Giving knowledge feedback to parents of students.</li>
-                  </ul>
-              </div>
+          <div
+            class="col-12 col-xl-6 d-flex align-items-center order-1 order-xl-0"
+          >
+            <div class="text-left">
+              <h3 class="mt-5 mt-xl-0 text-white">Teaching:</h3>
+              <ul class="fs-5">
+                <li>Educating children, teenagers and adults;</li>
+                <li>Specialized in religious studies, history and ethics;</li>
+                <li>Working with students with learning disabilities;</li>
+                <li>Encouraging student participation;</li>
+                <li>Planning the school year curriculum;</li>
+                <li>Marking student work and recording performance;</li>
+                <li>Attending teacher meetings and conferences;</li>
+                <li>Giving knowledge feedback to parents of students.</li>
+              </ul>
+            </div>
           </div>
           <div class="col-12 col-xl-6 order-0 order-xl-1">
-              <img src="./images/teacher3.avif" class="img-fluid" width="100%" alt="">
+            <img
+              src="./images/teacher3.avif"
+              class="img-fluid"
+              width="100%"
+              alt=""
+            />
           </div>
         </article>
 
-      <hr class="text-white">
+        <hr class="text-white" />
 
-      <article class="row my-5">
+        <article class="row my-5">
           <div class="col-12 col-xl-6">
-              <img src="./images/pfleger.avif" class="img-fluid" width="100%" alt="">
+            <img
+              src="./images/pfleger.avif"
+              class="img-fluid"
+              width="100%"
+              alt=""
+            />
           </div>
           <div class="col-12 col-xl-6 d-flex align-items-center">
-              <div class="text-left">
-                  <h3 class="mt-5 text-white">Nursing Assistant:</h3>
-                  <ul class="fs-5">
-                    <li>Turning or moving patients;</li>
-                    <li>Grooming patients by shaving them, brushing their teeth, hair, etc;</li>
-                    <li>Answering patient calls and documenting information;</li>
-                    <li>Cleaning bed lineas and rooms;</li>
-                    <li>Bathing and feeding patients;</li>
-                    <li>Documenting their food and liquid intake;</li>
-                    <li>Checking patients vital signs like blood pressure.</li>
-                  </ul>
-              </div>
-         </div>
+            <div class="text-left">
+              <h3 class="mt-5 mt-xl-0  text-white">Nursing Assistant:</h3>
+              <ul class="fs-5">
+                <li>Turning or moving patients;</li>
+                <li>
+                  Grooming patients by shaving them, brushing their teeth, hair,
+                  etc;
+                </li>
+                <li>Answering patient calls and documenting information;</li>
+                <li>Cleaning bed lineas and rooms;</li>
+                <li>Bathing and feeding patients;</li>
+                <li>Documenting their food and liquid intake;</li>
+                <li>Checking patients vital signs like blood pressure.</li>
+              </ul>
+            </div>
+          </div>
         </article>
 
-      <hr class="text-white">
+        <hr class="text-white" />
 
-      <article class="row my-5">
-          <div class="col-12 col-xl-6 d-flex align-items-center order-1 order-xl-0">
-              <div class="text-left">
-                  <h3 class="mt-5 text-white">Web Development:</h3>
-                  <ul class="fs-5">
-                    <li>This is an area that is still evolving each day;</li>
-                    <li>I am a motivated and dedicated student at DCI (Digital Career Institute);</li>
-                    <li>I really like finding different solutions for the same coding problem;</li>
-                    <li>Tools that I use: Visual Studio Code, Github, Git, Sass, Chrome DevTools, NPM, Bootstrap; </li>
-                    <li>You can see my current projects <a href="https://github.com/MarkoTertinek/Project-web-portfolio/projects?query=is%3Aopen" target="_blank">here</a>;</li>
-                    <li>Coding languages I know:
-                      <ul class="d-flex gap-4 fs-1" style="list-style:none">
-                        <li><a href="https://de.wikipedia.org/wiki/HTML5" target="_blank"><i class="fa-brands fa-html5"></i></a></li>
-                        <li><a href="https://de.wikipedia.org/wiki/Cascading_Style_Sheets#CSS3" target="_blank"><i class="fa-brands fa-css3-alt"></i></a></li>
-                        <li><a href="https://de.wikipedia.org/wiki/JavaScript#:~:text=JavaScript%20(kurz%20JS)%20ist%20eine,M%C3%B6glichkeiten%20von%20HTML%20zu%20erweitern." target="_blank"><i class="fa-brands fa-js"></a></i></li>
-                        <li><a href="https://de.wikipedia.org/wiki/Java_(Programmiersprache)" target="_blank"><i class="fa-brands fa-java"></i></a></li>
-                      </ul>
+        <article class="row my-5">
+          <div
+            class="col-12 col-xl-6 d-flex align-items-center order-1 order-xl-0"
+          >
+            <div class="text-left">
+              <h3 class="mt-5 mt-xl-0  text-white">Web Development:</h3>
+              <ul class="fs-5">
+                <li>This is an area that is still evolving each day;</li>
+                <li>
+                  I am a motivated and dedicated student at DCI (Digital Career
+                  Institute);
+                </li>
+                <li>
+                  I really like finding different solutions for the same coding
+                  problem;
+                </li>
+                <li>
+                  Tools that I use: Visual Studio Code, Github, Git, Sass,
+                  Chrome DevTools, NPM, Bootstrap;
+                </li>
+                <li>
+                  You can see my current projects
+                  <a
+                    href="https://github.com/MarkoTertinek/Project-web-portfolio/projects?query=is%3Aopen"
+                    target="_blank"
+                    >here</a
+                  >;
+                </li>
+                <li>
+                  Coding languages I know:
+                  <ul class="d-flex gap-4 fs-1" style="list-style: none">
+                    <li>
+                      <a
+                        href="https://de.wikipedia.org/wiki/HTML5"
+                        target="_blank"
+                      >
+                        <i class="fa-brands fa-html5"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://de.wikipedia.org/wiki/Cascading_Style_Sheets#CSS3"
+                        target="_blank"
+                      >
+                        <i class="fa-brands fa-css3-alt"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://de.wikipedia.org/wiki/JavaScript#:~:text=JavaScript%20(kurz%20JS)%20ist%20eine,M%C3%B6glichkeiten%20von%20HTML%20zu%20erweitern."
+                        target="_blank"
+                      >
+                        <i class="fa-brands fa-js"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://de.wikipedia.org/wiki/Java_(Programmiersprache)"
+                        target="_blank"
+                      >
+                        <i class="fa-brands fa-java"></i>
+                      </a>
+                    </li>
                   </ul>
-              </div>
+                </li>
+              </ul>
+            </div>
           </div>
           <div class="col-12 col-xl-6 order-0 order-xl-1">
-              <img src="./images/code.2.avif" class="img-fluid" width="100%" alt="">
+            <img
+              src="./images/code.2.avif"
+              class="img-fluid"
+              width="100%"
+              alt=""
+            />
           </div>
         </article>
       </section>
@@ -158,72 +333,145 @@
       <!-- Hobbies -->
 
       <section class="container mt-5 pt-3 text-left" id="hobbies">
-        <h2 class="display-5 pt-xl-5 mt-xl-5 pb-5 text-center text-white fw-bold">My Hobbies</h2>
+        <h2
+          class="display-5 pt-xl-5 mt-xl-5 pb-4 text-center text-white fw-bold"
+        >
+          My Hobbies
+        </h2>
 
         <article class="row my-5">
           <div class="col-12 col-xl-6">
-              <img src="./images/hiking8.avif" class="img-fluid" width="100%" alt="">
+            <img
+              src="./images/hiking8.avif"
+              class="img-fluid"
+              width="100%"
+              alt=""
+            />
           </div>
           <div class="col-12 col-xl-6 d-flex align-items-center">
-              <div class="text-left">
-                  <h3 class="mt-5 text-white">Hiking and Climbing</h3>
-                  <p class="fs-5">Because I was born in a country, that has a landscape full of mountains, I am naturall atracted to them. When I was a little kid I use to climb every trea in the neighbourgood, but now I am compansating this with hiking. My favourite places to hike are my home country of Slovenia and Italy.
-                  </p>
-              </div>
+            <div class="mt-5 mt-xl-0 text-left">
+              <h3 class="text-white">Hiking and Climbing</h3>
+              <p class="fs-5">
+                Since I come from a country, that has a landscape full of
+                mountains, I am naturally attracted to hiking and climbing. As a
+                little kid I use to climb up every trea in the neighbourhood. My
+                favourite places to hike are my home country of Slovenia and
+                Italy.
+              </p>
+              <p class="fs-5">
+                Recently I also started to try out indoor rock climbing. I only
+                do it in the winter months, because of the bad weather outside.
+                I can only advise this amazing sport to everyone. There is
+                something special in defeating a wall by climbing it.
+              </p>
+            </div>
           </div>
         </article>
 
-      <hr class="text-white">
+        <hr class="text-white" />
 
-           <article class="row my-5">
-              <div class="col-12 col-xl-6 d-flex align-items-center order-1 order-xl-0">
-                  <div class="text-left">
-                      <h3 class="mt-5 text-white">Meditation and Yoga</h3>
-                      <p class="fs-5">One of the things that gives me peace of my mind in hard times, is definetly spirituality. I really love buddhism and everything that is connected to buddhism. A lot of my free time is spend on finding always new ways to meditate. To complete spiritual part I do also Yoga. I am still a beginner, but we are getting there
-                      </p>
-                  </div>
-              </div>
-              <div class="col-12 col-xl-6 order-0 order-xl-1">
-                  <img src="./images/maditation1.avif" class="img-fluid" width="100%" alt="">
-              </div>
-            </article>
+        <article class="row my-5">
+          <div
+            class="col-12 col-xl-6 d-flex align-items-center order-1 order-xl-0"
+          >
+            <div class="mt-5 mt-xl-0 text-left">
+              <h3 class="text-white">Meditation and Yoga</h3>
+              <p class="fs-5">
+                One of the things that gives me peace of mind in hard times, is
+                definetly spirituality. I really adore buddhism and everything
+                that hast to do with buddhism. So for example, reading buddhist
+                books, listening to buddhist talks, from time to time I even
+                visit a group meditation in a buddhist center.
+              </p>
+              <p class="fs-5">
+                A lot of my free time is spend on finding always new ways to
+                meditate. To complete spiritual part I do also Yoga. I am still
+                a beginner, but we are getting there.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-xl-6 order-0 order-xl-1">
+            <img
+              src="./images/maditation1.avif"
+              class="img-fluid"
+              width="100%"
+              alt=""
+            />
+          </div>
+        </article>
 
-          <hr class="text-white">
+        <hr class="text-white" />
 
-          <article class="row my-5">
-              <div class="col-12 col-xl-6">
-                  <img src="./images/poetry2.avif" class="img-fluid" width="100%" alt="">
-              </div>
-              <div class="col-12 col-xl-6 d-flex align-items-center">
-                  <div class="text-left">
-                      <h3 class="mt-5 text-white">Writing Poetry</h3>
-                      <p class="fs-5">When I was younger, I use to write a lot of poems. It was always rewarding and it allowed me to express my emotions in difficult times. The fun part about it is that everyone can be a poet. My favourite types of poems are Verses. Haiku and Sonnets.</p>
-                      <p class="fs-5">My best sources of inspiration are people, who I care about, the forest, the seaside, and thinking about the past and the future. I also use to own a poetry journal. Sadley it got lost over the years. This is a hobby, that I am planing to bring back to life very soon.
-                      </p>
-                  </div>
-              </div>
-            </article>
+        <article class="row my-5">
+          <div class="col-12 col-xl-6">
+            <img
+              src="./images/poetry2.avif"
+              class="img-fluid"
+              width="100%"
+              alt=""
+            />
+          </div>
+          <div class="col-12 col-xl-6 d-flex align-items-center">
+            <div class="mt-5 mt-xl-0 text-left">
+              <h3 class="text-white">Writing Poetry</h3>
+              <p class="fs-5">
+                When I was younger, I use to write a lot of poems. It was always
+                rewarding and it allowed me to express my emotions in difficult
+                times. The fun part about it is that everyone can be a poet. My
+                favourite types of poems are Verses. Haiku and Sonnets.
+              </p>
+              <p class="fs-5">
+                My best sources of inspiration are people, who I care about, the
+                forest, the seaside, and thinking about the past and the future.
+                I also use to own a poetry journal. Sadley it got lost over the
+                years. This is a hobby, that I am planing to bring back to life
+                very soon.
+              </p>
+            </div>
+          </div>
+        </article>
 
-          <hr class="text-white">
+        <hr class="text-white" />
 
-          <article class="row my-5">
-              <div class="col-12 col-xl-6 d-flex align-items-center order-1 order-xl-0">
-                  <div class="text-left">
-                      <h3 class="mt-5 text-white">Vegan Cooking</h3>
-                      <p class="fs-5">When I first became Vegan, I was suddenly put in a situation, where I had to start cooking for myself. Something that I used to hate, became one of my favourite hobbies. Learning to cook has also saved me a lot of money and time. The meals made at home, are meals made with love, they also taste fresher than for example frozen microwave foods.</p>
-                      <p class="fs-5">I also enjoy to have control over, what I put into my body. Over time, as my cooking skills deeloped, I also started to experiment with different recipes and turning non-vegan dishes into vegan.</p>
-                 </div>
-              </div>
-              <div class="col-12 col-xl-6 order-0 order-xl-1">
-                  <img src="./images/cooking2.avif" class="img-fluid" width="100%" alt="">
-              </div>
-            </article>
-        </section>
-    
+        <article class="row my-5">
+          <div
+            class="col-12 col-xl-6 d-flex align-items-center order-1 order-xl-0"
+          >
+            <div class="mt-5 mt-xl-0 text-left">
+              <h3 class="text-white">Vegan Cooking</h3>
+              <p class="fs-5">
+                When I first became Vegan, I was suddenly put in a situation,
+                where I had to start cooking for myself. Something that I used
+                to hate, became one of my favourite hobbies. Learning to cook
+                has also saved me a lot of money and time. The meals made at
+                home, are meals made with love, they also taste fresher than for
+                example frozen microwave foods.
+              </p>
+              <p class="fs-5">
+                I also enjoy to have control over, what I put into my body. Over
+                time, as my cooking skills deeloped, I also started to
+                experiment with different recipes and turning non-vegan dishes
+                into vegan.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-xl-6 order-0 order-xl-1">
+            <img
+              src="./images/cooking2.avif"
+              class="img-fluid"
+              width="100%"
+              alt=""
+            />
+          </div>
+        </article>
+      </section>
+
       <!-- Contact   -->
 
       <section class="container" id="contact">
-        <h2 class="display-6 fw-bold text-center text-white py-5">Contact me</h2>
+        <h2 class="display-6 fw-bold text-center text-white py-5">
+          Contact me
+        </h2>
         <div class="row">
           <form
             action="#"
@@ -231,13 +479,9 @@
           >
             <div class="form-group text-white fw-bold">
               <label for="fullname">Full Name:</label>
-              <input
-                type="email"
-                class="form-control"
-                id="fullname"
-              />
+              <input type="email" class="form-control" id="fullname" />
             </div>
-            <br>
+            <br />
             <div class="form-group text-white fw-bold">
               <label for="email">Your Email:</label>
               <input
@@ -247,8 +491,8 @@
                 placeholder="name@example.com"
               />
             </div>
-            <br>
-             <div class="form-group text-white fw-bold">
+            <br />
+            <div class="form-group text-white fw-bold">
               <label for="yourmessage">Your Message for me:</label>
               <textarea
                 class="form-control"
@@ -256,15 +500,19 @@
                 rows="3"
               ></textarea>
             </div>
-            <br>
-            <button type="submit" class="submit rounded-2 text-white mb-4 px-4 py-2">Submit</button>
+            <br />
+            <button
+              type="submit"
+              class="submit rounded-2 text-white mb-4 px-4 py-2"
+            >
+              Submit
+            </button>
           </form>
         </div>
       </section>
-     </main>
-     <footer class="container-fluid text-center text-white pt-3">
+    </main>
+    <footer class="container-fluid text-center text-white pt-3">
       <p>@Copyright Marko Tertinek 2023</p>
-     </footer> 
-    </body>
+    </footer>
+  </body>
 </html>
-
