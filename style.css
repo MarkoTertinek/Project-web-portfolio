@@ -36,6 +36,12 @@ nav {
   box-shadow: inset 7px 11px 137px -39px rgba(232, 23, 232, 1);
 }
 
+.profile-pic {
+  height:300px;
+  width:300px;
+  object-fit: cover;
+}
+
 .hello {
   color: #7f5af0;
   font-weight: bold;
@@ -113,6 +119,8 @@ nav {
   object-fit: cover;
 }
 
+/* Contact */
+
 #contact {
   border-image: linear-gradient(
       91.1deg,
@@ -135,4 +143,22 @@ nav {
 
 .submit:hover {
   opacity: 0.5;
+}
+
+/* media q */
+
+@media (min-width:576px) {
+  .profile-pic {
+    width:350px;
+    height:350px;
+
+  }
+}
+
+@media (min-width:992px) {
+  .profile-pic {
+    width:400px;
+    height:400px;
+
+  }
 }
